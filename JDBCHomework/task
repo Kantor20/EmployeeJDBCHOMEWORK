@@ -1,0 +1,25 @@
+Napisz program do zarządzania pracownikami:
+Pracownik (imię, nazwisko, stanowisko(enum(stażysta, junior dev, mid dev, senior dev, lead dev )),
+pensja, zwolniony(boolean))
+Napisz serwis, który będzie posiadał metody:
+- zatrudniająca pracownika,
+- zwalniającą pracownika (soft delete),
+- podyższającą pensję
+- awansującą pracownika;
+- wyszukującą pracownika po imieniu i nazwisku
+Oczywiście wszelkie zmiany muszą zachodzić w bazie danych.
+
+
+
+
+
+// Stwórz tabele Pociag ktora ma nazwe, dlugosc, to czy jest wars oraz laczna liczba miejsc.
+// Za pomoca transakcji dodaj jaksi pociag i usun stary, ale jesli usuniceie sie nie powiedzie
+// to chcemy cofnac inserta, no bo ile mozna miec pociagow w pkp? O_O
+
+
+
+
+// Przetestuj działanie rollbacka na trzech operacjach np robimy inserta, deleta i updejta,
+  jak sie sypnie updejt
+ // to chcemy cofnac wszystkie zmiany, na dowolnej tabeli
