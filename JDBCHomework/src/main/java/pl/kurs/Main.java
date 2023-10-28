@@ -28,6 +28,8 @@ public class Main {
         System.out.println(emplService.totalEmployees());
         System.out.println(emplService.totalGender(true));
         System.out.println(emplService.employeePositions());
+        service.salaryIncrease(11, 10.0);
+        service.salaryIncrease(13, 50.0);
 //        service.salaryIncrease(14,10.0);
 //        service.promoteAnEmployee(14, Position.JUNIOR_DEV);
 //        service.hireAnEmployee(newEmpl);
